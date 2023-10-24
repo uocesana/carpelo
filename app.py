@@ -17,10 +17,7 @@ st.markdown("""---""")
 # st.title('Solicitação de Alimentação')
 # st.image('logo_refeicao.png')
 # URL da API
-
-
-
-url = "https://coletum.com/api/graphql?query={answer(formId:29174){answer{dataDaRetirada425488,encarregado425489,restaurante425490,almoco425491,janta429511,cafeDaManha429512,observacao438633},metaData{userId,userName,createdAtSource,friendlyId,createdAt,createdAtDevice,createdAtCoordinates,updatedAt,updatedAtCoordinates}}}&token={key}" # delimitando intervalo de dados de 2000 a 2024
+url = "https://coletum.com/api/graphql?query={answer(formId:29174){answer{dataDaRetirada425488,encarregado425489,restaurante425490,almoco425491,janta429511,cafeDaManha429512,observacao438633},metaData{userId,userName,createdAtSource,friendlyId,createdAt,createdAtDevice,createdAtCoordinates,updatedAt,updatedAtCoordinates}}}&token=qmokh1qdw1cs8k4cc04ow4wckkggcww" # delimitando intervalo de dados de 2000 a 2024
 
 # Faz a requisição GET à API
 response = requests.get(url)
