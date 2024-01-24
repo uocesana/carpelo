@@ -143,7 +143,6 @@ python-slugify==6.1.2
 pytweening==1.0.7
 pytz==2022.1
 pytz-deprecation-shim==0.1.0.post0
-pywin32==304
 pyxlsb==1.0.10
 PyYAML==6.0
 pyzmq==23.2.0
